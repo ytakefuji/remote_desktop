@@ -9,6 +9,8 @@ $ sudo systemctl set-default graphical.target
 $ sudo apt install xrdp
 $ sudo systemctl status xrdp
 $ sudo usermod -a -G ssl-cert xrdp 
+
+OPTIONS
 $ sudo vi /etc/xrdp/startwm.sh 
   adding two lines before test command:
 Unset DBUS_SESSION_ADDRESS
